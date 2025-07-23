@@ -1,11 +1,12 @@
-import './App.css'
 import PartidoUdeChile from "./PartidoUChile";
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1 style={{ textAlign: "center" }}>Widget U. de Chile</h1>
+    <>
+      <h1>Info Universidad de Chile</h1>
       <PartidoUdeChile />
-    </div>
+    </>
   );
 }
+
+export default App;
